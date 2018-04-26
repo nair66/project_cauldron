@@ -1,0 +1,23 @@
+{
+  "name": "projectcauldron-api",
+  "version": "1.0.0",
+  "description": "server side api for PC Cauldron",
+  "main": "index.js",
+  "scripts": {
+    "start": " node server/server.js"
+  },
+    "engines":{
+      "node":"9.10.1"
+  },
+  "author": "aditya_nair",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "mongodb": "^3.0.7",
+    "mongoose": "^5.0.15",
+    "nodemon": "^1.17.3"
+  }
+}
