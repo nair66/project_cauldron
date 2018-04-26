@@ -4,7 +4,7 @@
   "description": "server side api for PC Cauldron",
   "main": "index.js",
   "scripts": {
-    "start": " node server/server.js"
+    "start": " node server.js"
   },
     "engines":{
       "node":"9.10.1"
